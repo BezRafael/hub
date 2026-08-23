@@ -7,8 +7,8 @@ import streamlit as st
 pages = {
     "Seções":[
         st.Page("pages/copiloto_tmo.py", title="TMO Copilot"),
-        st.Page("pages/inserção_mobilização.py", title="Mobilização"),
-        st.Page("pages/inserção_sobrevida.py", title="Sobrevida")
+        st.Page("pages/insercao_mobilizacao.py", title="Mobilização"),
+        st.Page("pages/insercao_sobrevida.py", title="Sobrevida")
     ],
     "Problemas?":[
         st.Page("pages/abrir_chamado.py", title="Abrir Chamado")
