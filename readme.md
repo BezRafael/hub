@@ -1,5 +1,5 @@
 # TMO HUB
-Ambiente onde concentra ferramentas funcamentais do setor de TMO
+Ambiente onde concentra ferramentas fundamentais do setor de TMO
 
 Após o clone, é necessário instalar as bibliotecas para poder utilizar. Então...
 ```

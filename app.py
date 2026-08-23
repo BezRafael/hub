@@ -17,16 +17,16 @@ pages = {
     # Grupo "Seções" da barra lateral
     "Seções": [
         # Tela inicial/apresentação
-        st.Page("pages/inicio.py", title="Home", icon="🏠"),
+        st.Page("pages/inicio.py", icon="🏠", title="Home"),
 
         # Página principal do copiloto TMO
-        st.Page("pages/copiloto_tmo.py", icon="🤖", title="TMO Copilot"),
+        st.Page("pages/copiloto_tmo.py", icon="🧠", title="TMO Copilot"),
 
         # Página para inserção de dados de mobilização
-        st.Page("pages/insercao_mobilizacao.py", icon="📋", title="Mobilização"),
+        st.Page("pages/insercao_mobilizacao.py", icon="🧑‍🤝‍🧑", title="Mobilização"),
 
         # Página para inserção de dados de sobrevida
-        st.Page("pages/insercao_sobrevida.py", icon="📊", title="Sobrevida")
+        st.Page("pages/insercao_sobrevida.py", icon="🩸", title="Sobrevida")
     ],
 
     # Grupo "Problemas?" da barra lateral
