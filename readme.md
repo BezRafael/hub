@@ -33,5 +33,5 @@ tmo_hub/
 
 Para rodar a aplicação, rode esse comando
 ```
-
+streamlit run app.py
 ```
