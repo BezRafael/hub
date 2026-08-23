@@ -21,10 +21,11 @@ pip install -r requirements.txt
 tmo_hub/
 ├── pages/          
 ├─────── abrir_chamado.py                      # tela para abrir chamados
-├─────── copiloto_tmo.py                       # frontend do projeto copilotoTMO  
+├─────── copiloto_tmo.py                       # frontend do projeto copilotoTMO
+├─────── inicio.py                             # tela início/apresentação   
 ├─────── insercao_mobilizacao.py               # formulário para pact em moblização
 ├─────── insercao_sobrevida.py                 # formulario para pact em transplante
-├── app.py                                     # tela Home
+├── app.py                                     # configuração e navegação das páginas
 ├── requirements.txt                           # bibliotecas do projeto
 └─────────────────────────────────|           
 ```
