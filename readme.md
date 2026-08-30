@@ -4,6 +4,10 @@ Ambiente onde concentra ferramentas que estou estudando
 Após o clone, é necessário instalar as bibliotecas para poder utilizar. Então...
 ```
 python -m venv venv
+
+ou
+
+python3 -m venv venv
 ```
 - Para instalar o ambiente virtual
 
@@ -21,10 +25,9 @@ pip install -r requirements.txt
 tmo_hub/
 ├── pages/          
 ├─────── abrir_chamado.py                      # tela para abrir chamados
-├─────── copiloto_tmo.py                       # frontend do projeto copilotoTMO
 ├─────── inicio.py                             # tela início/apresentação   
-├─────── insercao_mobilizacao.py               # formulário para pact em moblização
-├─────── insercao_sobrevida.py                 # formulario para pact em transplante
+├─────── r2.py                                 # Agente de IA
+├─────── tars.py                               # Agente de IA
 ├── app.py                                     # configuração e navegação das páginas
 ├── requirements.txt                           # bibliotecas do projeto
 └─────────────────────────────────|           

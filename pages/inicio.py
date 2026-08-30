@@ -1,10 +1,10 @@
 import streamlit as st
 
 # Título principal
-st.title("🧩 TMO HUB")
+st.title("HUB")
 
 # Subtítulo
-st.subheader("Seu ambiente central de ferramentas TMO")
+st.subheader("Ambiente onde concentra ferramentas/projetos que estou estudando...")
 
 # Mensagem de orientação
 st.info(

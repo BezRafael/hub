@@ -3,8 +3,8 @@ import streamlit as st
 # Configuração da página
 st.set_page_config(
     page_title="TMO HUB",
-    page_icon=":material/hub:",
-    layout="wide"
+    page_icon=":material/settings_suggest:",
+    layout="centered"
 )
 
 # Define as páginas que aparecerão na barra lateral
@@ -16,16 +16,10 @@ pages = {
         st.Page("pages/inicio.py", icon=":material/home:", title="Home"),
 
         # Página principal do TMO Insights
-        st.Page("pages/tmo_insights.py", icon=":material/auto_awesome:", title="TMO Insights"),
+        st.Page("pages/r2.py", icon=":material/smart_toy:", title="R2"),
 
         # Página principal do TMO Scribe
-        st.Page("pages/tmo_scribe.py", icon=":material/record_voice_over:", title="TMO Scribe"),
-
-        # Página para inserção de dados de mobilização
-        st.Page("pages/coleta.py", icon=":material/medical_services:", title="Mobilização/Coleta"),
-
-        # Página para inserção de dados de sobrevida
-        st.Page("pages/transplantes.py", icon=":material/health_and_safety:", title="Sobrevida/Transplantes")
+        st.Page("pages/tars.py", icon=":material/smart_toy:", title="TARS"),
     ],
 
     # Grupo "Problemas?" da barra lateral
