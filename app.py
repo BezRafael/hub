@@ -16,7 +16,7 @@ pages = {
         st.Page("pages/inicio.py", icon=":material/home:", title="Home"),
 
         # Página principal do TMO Insights
-        st.Page("pages/r2.py", icon=":material/smart_toy:", title="R2-D2"),
+        st.Page("pages/r2-d2.py", icon=":material/smart_toy:", title="R2-D2"),
 
         # Página principal do TMO Scribe
         st.Page("pages/tars.py", icon=":material/smart_toy:", title="TARS"),
