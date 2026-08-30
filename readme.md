@@ -1,5 +1,5 @@
-# TMO HUB
-Ambiente onde concentra ferramentas fundamentais do setor de TMO
+# HUB
+Ambiente onde concentra ferramentas que estou estudando
 
 Após o clone, é necessário instalar as bibliotecas para poder utilizar. Então...
 ```
