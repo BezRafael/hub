@@ -2,7 +2,7 @@ import streamlit as st
 
 # Configuração da página
 st.set_page_config(
-    page_title="TMO HUB",
+    page_title="HUB",
     page_icon=":material/settings_suggest:",
     layout="centered"
 )
