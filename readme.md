@@ -26,7 +26,7 @@ tmo_hub/
 ├── pages/          
 ├─────── abrir_chamado.py                      # tela para abrir chamados
 ├─────── inicio.py                             # tela início/apresentação   
-├─────── r2.py                                 # Agente de IA
+├─────── r2-d2.py                              # Agente de IA
 ├─────── tars.py                               # Agente de IA
 ├── app.py                                     # configuração e navegação das páginas
 ├── requirements.txt                           # bibliotecas do projeto
